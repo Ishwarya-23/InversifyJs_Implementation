@@ -4,7 +4,7 @@ const axios = require('axios');
 
 jest.mock('axios');
 
-it('returns a list of todos', async () => {
+it('Returns a list of todos', async () => {
     axios.get.mockResolvedValue({
         data: [
             {

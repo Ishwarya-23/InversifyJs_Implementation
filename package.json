@@ -4,7 +4,10 @@
   "description": "Typescript DI implementation",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "ts-node ./src/index.ts"
+    "build": "npm run clean && tsc",
+    "clean": "rimraf ./dist",
+    "start": "ts-node ./src/index.ts",
+    "test": "jest --detectOpenHandles"
   },
   "author": "",
   "license": "ISC",

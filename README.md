@@ -1,5 +1,4 @@
-# Tactable_Assessment
- Typescript dependency injection implementation
+# Typescript dependency injection implementation
 
 - Create a class called ApiManager, it will have a TodoClient class injected via DI (Please use inversify js)
 - The client will handle making a rest call to https://jsonplaceholder.typicode.com/todos
